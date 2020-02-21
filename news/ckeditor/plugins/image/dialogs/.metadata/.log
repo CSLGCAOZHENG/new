@@ -1,0 +1,1082 @@
+!SESSION 2019-06-10 14:37:15.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+
+!ENTRY org.eclipse.ui 2 0 2019-06-10 14:37:16.824
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-10 14:37:16.824
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:37:17.029
+!MESSAGE ********HBuilder正常启动：preStartup********
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 14:37:18.736
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 14:37:18.739
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:37:22.328
+!MESSAGE ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:37:22.329
+!MESSAGE check mode
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:37:22.462
+!MESSAGE workspace : file:\D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:37:23.353
+!MESSAGE ********HBuilder正常启动：postStartup********
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 14:37:23.730
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 9.0.2.201803061935
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-10 14:37:23.800
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:37:23.800
+!MESSAGE Conflict for 'org.nodeclipse.debug.launch.LaunchShortcut.run':
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@d2b686,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1cd2111,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-10 14:37:23.801
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:37:23.801
+!MESSAGE Conflict for 'org.nodeclipse.debug.launch.LaunchShortcut.debug':
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@ede24d,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1a44f8f,
+	expression=,sourcePriority=0)
+
+!ENTRY com.aptana.editor.css 4 0 2019-06-10 14:37:24.118
+!MESSAGE (Build null) [ERROR]  开始清理css错误marker...
+
+!ENTRY com.aptana.editor.css 4 0 2019-06-10 14:37:24.120
+!MESSAGE (Build null) [ERROR]  清理css错误marker结束
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:24.394
+!MESSAGE (Build null) [ERROR]  ADB PID:::4524
+
+!ENTRY com.pandora.index.store 4 0 2019-06-10 14:37:24.464
+!MESSAGE (Build null) [ERROR]  Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+!STACK 0
+java.rmi.server.ExportException: Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source)
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.setup(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.<init>(Unknown Source)
+	at java.rmi.registry.LocateRegistry.createRegistry(Unknown Source)
+	at com.pandora.index.store.IndexStoreStartup.run(IndexStoreStartup.java:28)
+	at com.pandora.index.store.IndexStoreStartup.earlyStartup(IndexStoreStartup.java:18)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.TwoStacksPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source)
+	... 15 more
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:24.748
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:24.749
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:24.878
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:72)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:109)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:24.900
+!MESSAGE (Build null) [ERROR]  ADB PID:::4524
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:24.992
+!MESSAGE (Build null) [ERROR]  C:\ProgramData\ThinkSky\iTools\Driver\iTunesMobileDevice.dll is not exits!
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:24.997
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:25.005
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:25.006
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:25.013
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:77)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:799)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:25.018
+!MESSAGE (Build null) [ERROR]  C:\ProgramData\ThinkSky\iTools\Driver\iTunesMobileDevice.dll is not exits!
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 14:37:25.019
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.stats.core 1 0 2019-06-10 14:37:25.079
+!MESSAGE 
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.093
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.094
+!MESSAGE (Build null) [ERROR]  ===adb.exe  D:\360极速下载\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.095
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===d:\360极速下载\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.103
+!MESSAGE (Build null) [ERROR]  ADB Path===d:\360极速下载\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.225
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.226
+!MESSAGE (Build null) [ERROR]  ===adb.exe  D:\360极速下载\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.227
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===d:\360极速下载\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.251
+!MESSAGE (Build null) [ERROR]  ADB Path===d:\360极速下载\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.264
+!MESSAGE (Build null) [ERROR]  ADB PID:::4524
+
+!ENTRY com.pandora.core.utils 4 0 2019-06-10 14:37:25.424
+!MESSAGE (Build null) [ERROR]  Wmic Error:::没有可用实例。
+
+!ENTRY com.pandora.core.utils 4 0 2019-06-10 14:37:25.435
+!MESSAGE (Build null) [ERROR]  Wmic Error:::
+
+!ENTRY com.aptana.parsing 4 0 2019-06-10 14:37:25.448
+!MESSAGE (Build null) [ERROR]  无效的属性类型“.webkit.SearchBoxImpl@4135441”属性“searchBoxJavaBridge_”
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:25.450
+!MESSAGE (Build null) [ERROR]  ADB Path===null
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 14:37:26.918
+!MESSAGE (Build null) [ERROR]  loadBundles异常
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-06-10 14:37:27.066
+!MESSAGE D:\360极速下载\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:27.439
+!MESSAGE (Build null) [ERROR]  ADB Path===D:\360极速下载\HBuilder\tools\adbs\adb.exe
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-06-10 14:37:28.076
+!MESSAGE D:\360极速下载\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 14:37:28.701
+!MESSAGE (Build null) [ERROR]  最新版本: 9.1.29.201811231920
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 14:37:28.724
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 9.1.29.201811231920
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 14:37:31.289
+!MESSAGE (Build null) [ERROR]  ADB Path===D:\360极速下载\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.stats.core 4 0 2019-06-10 14:38:28.404
+!MESSAGE (Build null) [ERROR]  list job time: 3321
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.paste':
+HandlerActivation(commandId=org.eclipse.ui.edit.paste,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$10@11ff897,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.paste,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$10@1f9b144,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.text.goto.lineStart':
+HandlerActivation(commandId=org.eclipse.ui.edit.text.goto.lineStart,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$14@1e5178f,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.text.goto.lineStart,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$14@16dc7e7,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.text.smartEnter':
+HandlerActivation(commandId=org.eclipse.ui.edit.text.smartEnter,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$13@5f1179,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.text.smartEnter,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$13@174557e,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.text.select.lineEnd':
+HandlerActivation(commandId=org.eclipse.ui.edit.text.select.lineEnd,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$17@98c704,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.text.select.lineEnd,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$17@320c3b,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.text.goto.lineEnd':
+HandlerActivation(commandId=org.eclipse.ui.edit.text.goto.lineEnd,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$15@1c1124f,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.text.goto.lineEnd,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$15@99309f,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.copy':
+HandlerActivation(commandId=org.eclipse.ui.edit.copy,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$9@1472e9f,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.copy,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$9@45ef55,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.redo':
+HandlerActivation(commandId=org.eclipse.ui.edit.redo,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$12@163cd2e,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.redo,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$12@133c12a,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.selectAll':
+HandlerActivation(commandId=org.eclipse.ui.edit.selectAll,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$7@ced505,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.selectAll,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$7@10363ae,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.text.select.lineStart':
+HandlerActivation(commandId=org.eclipse.ui.edit.text.select.lineStart,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$16@1856c6b,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.text.select.lineStart,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$16@912321,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.undo':
+HandlerActivation(commandId=org.eclipse.ui.edit.undo,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$11@995f4f,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.undo,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$11@1403cde,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.ui.edit.cut':
+HandlerActivation(commandId=org.eclipse.ui.edit.cut,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$8@5c24e6,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.ui.edit.cut,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$8@17aa03b,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 14:39:12.006
+!MESSAGE Conflict for 'org.eclipse.search.ui.openSearchDialog':
+HandlerActivation(commandId=org.eclipse.search.ui.openSearchDialog,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$18@1ad8345,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@4c46d6,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+HandlerActivation(commandId=org.eclipse.search.ui.openSearchDialog,
+	handler=com.pandora.quicksearch.ui.QuickSearchText$18@855c30,
+	expression=AndExpression(com.pandora.quicksearch.ui.QuickSearchText$6@95e8cb,WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13296f2)),sourcePriority=-2147467264)
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:45:03.721
+!MESSAGE ********HBuilder正常关闭：preShutdown********
+
+!ENTRY com.aptana.commandline.launcher 4 0 2019-06-10 14:45:03.722
+!MESSAGE socket closed
+!STACK 0
+java.net.SocketException: socket closed
+	at java.net.TwoStacksPlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:129)
+
+!ENTRY org.nodeclipse.ui 4 4 2019-06-10 14:45:04.298
+!MESSAGE Node.js executable can't be found!
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 14:45:04.461
+!MESSAGE ********HBuilder正常关闭：postShutdown********
+
+!ENTRY com.aptana.rcp 1 0 2019-06-10 14:45:06.233
+!MESSAGE close CEF
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-06-10 14:45:20.233
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-06-10 14:45:20.234
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.pandora.pack.core.download.StartupDownloadPackage$1
+!SESSION 2019-06-10 15:13:31.558 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+
+!ENTRY org.eclipse.ui 2 0 2019-06-10 15:13:36.120
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-10 15:13:36.120
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:13:37.160
+!MESSAGE ********HBuilder正常启动：preStartup********
+
+!ENTRY com.aptana.rcp 1 0 2019-06-10 15:13:37.247
+!MESSAGE 备份  workbench.xml 文件
+
+!ENTRY org.eclipse.ui 4 4 2019-06-10 15:13:44.958
+!MESSAGE Plug-in 'org.chromium.debug.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.run' is invalid): org.chromium.debug.ui.actions.AddExceptionBreakpointAction
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 15:13:46.022
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 15:13:46.023
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:13:46.257
+!MESSAGE ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:13:46.258
+!MESSAGE check mode
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:13:46.263
+!MESSAGE workspace : file:\D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:13:47.006
+!MESSAGE ********HBuilder正常启动：postStartup********
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-10 15:13:47.263
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 15:13:47.263
+!MESSAGE Conflict for 'org.nodeclipse.debug.launch.LaunchShortcut.run':
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1438837,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@de9cb9,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-10 15:13:47.264
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-10 15:13:47.264
+!MESSAGE Conflict for 'org.nodeclipse.debug.launch.LaunchShortcut.debug':
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@467a77,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.nodeclipse.debug.launch.LaunchShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@7e2a14,
+	expression=,sourcePriority=0)
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 15:13:47.680
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 9.0.2.201803061935
+
+!ENTRY com.pandora.index.store 4 0 2019-06-10 15:13:50.446
+!MESSAGE (Build null) [ERROR]  Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+!STACK 0
+java.rmi.server.ExportException: Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source)
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.setup(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.<init>(Unknown Source)
+	at java.rmi.registry.LocateRegistry.createRegistry(Unknown Source)
+	at com.pandora.index.store.IndexStoreStartup.run(IndexStoreStartup.java:28)
+	at com.pandora.index.store.IndexStoreStartup.earlyStartup(IndexStoreStartup.java:18)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.TwoStacksPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source)
+	... 15 more
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:50.919
+!MESSAGE (Build null) [ERROR]  ADB PID:::11096
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:51.175
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:51.176
+!MESSAGE (Build null) [ERROR]  ===adb.exe  D:\360极速下载\HBuilder\tools\adbs\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:51.177
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===d:\360极速下载\hbuilder\tools\adbs\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:51.185
+!MESSAGE (Build null) [ERROR]  ADB Path===d:\360极速下载\hbuilder\tools\adbs\adb.exe
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.639
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.640
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.651
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:72)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:109)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.685
+!MESSAGE (Build null) [ERROR]  C:\ProgramData\ThinkSky\iTools\Driver\iTunesMobileDevice.dll is not exits!
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.703
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.710
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.711
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.717
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:77)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:799)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.721
+!MESSAGE (Build null) [ERROR]  C:\ProgramData\ThinkSky\iTools\Driver\iTunesMobileDevice.dll is not exits!
+
+!ENTRY com.pandora.launcher.core 4 0 2019-06-10 15:13:51.723
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:51.938
+!MESSAGE (Build null) [ERROR]  ADB PID:::11096
+
+!ENTRY com.pandora.stats.core 1 0 2019-06-10 15:13:52.013
+!MESSAGE 
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:52.082
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:52.083
+!MESSAGE (Build null) [ERROR]  ===adb.exe  D:\360极速下载\HBuilder\tools\adbs\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:52.083
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===d:\360极速下载\hbuilder\tools\adbs\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-06-10 15:13:52.089
+!MESSAGE (Build null) [ERROR]  ADB Path===d:\360极速下载\hbuilder\tools\adbs\adb.exe
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-06-10 15:13:54.173
+!MESSAGE D:\360极速下载\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-06-10 15:13:54.702
+!MESSAGE D:\360极速下载\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 15:13:55.324
+!MESSAGE (Build null) [ERROR]  最新版本: 9.1.29.201811231920
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-06-10 15:13:55.345
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 9.1.29.201811231920
+
+!ENTRY com.aptana.scripting 4 0 2019-06-10 15:13:55.679
+!MESSAGE (Build null) [ERROR]  loadBundles异常
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY com.pandora.stats.core 4 0 2019-06-10 15:14:52.017
+!MESSAGE (Build null) [ERROR]  list job time: 0
+
+!ENTRY com.aptana.commandline.launcher 4 0 2019-06-10 15:21:55.557
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:135)
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:22:00.049
+!MESSAGE ********HBuilder正常关闭：preShutdown********
+
+!ENTRY com.aptana.commandline.launcher 4 0 2019-06-10 15:22:00.128
+!MESSAGE socket closed
+!STACK 0
+java.net.SocketException: socket closed
+	at java.net.TwoStacksPlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:129)
+
+!ENTRY org.nodeclipse.ui 4 4 2019-06-10 15:22:00.567
+!MESSAGE Node.js executable can't be found!
+
+!ENTRY org.eclipse.ui.workbench 4 0 2019-06-10 15:22:01.726
+!MESSAGE Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:790)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:448)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.jface.window.Window.close(Window.java:335)
+	at org.eclipse.jface.window.ApplicationWindow.close(ApplicationWindow.java:307)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1882)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.VtblCall(Native Method)
+	at org.eclipse.swt.internal.ole.win32.IOleInPlaceObject.InPlaceDeactivate(IOleInPlaceObject.java:21)
+	at org.eclipse.swt.ole.win32.OleClientSite.deactivateInPlaceClient(OleClientSite.java:559)
+	at org.eclipse.swt.ole.win32.OleClientSite.onDispose(OleClientSite.java:908)
+	at org.eclipse.swt.ole.win32.OleClientSite.access$1(OleClientSite.java:895)
+	at org.eclipse.swt.ole.win32.OleClientSite$1.handleEvent(OleClientSite.java:129)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:790)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:448)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.jface.text.AbstractInformationControl.dispose(AbstractInformationControl.java:513)
+	at org.eclipse.jface.text.AbstractInformationControlManager.disposeInformationControl(AbstractInformationControlManager.java:1308)
+	at org.eclipse.jface.text.AbstractInformationControlManager.dispose(AbstractInformationControlManager.java:1323)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.dispose(AbstractHoverInformationControlManager.java:933)
+	at org.eclipse.jface.text.TextViewerHoverManager.dispose(TextViewerHoverManager.java:389)
+	at org.eclipse.jface.text.TextViewer.handleDispose(TextViewer.java:1946)
+	at org.eclipse.jface.text.source.SourceViewer.handleDispose(SourceViewer.java:773)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.handleDispose(ProjectionViewer.java:1364)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.JavaSourceViewer.handleDispose(JavaSourceViewer.java:453)
+	at org.eclipse.jface.text.TextViewer$2.widgetDisposed(TextViewer.java:1800)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.StyledText.handleDispose(StyledText.java:5815)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5635)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:180)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:702)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1811)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1511)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1469)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(WorkbenchPage.java:1273)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1860)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:934)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1843)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1122)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1119)
+	at org.eclipse.ui.internal.Workbench.access$13(Workbench.java:1050)
+	at org.eclipse.ui.internal.Workbench$28.run(Workbench.java:1351)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1349)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1321)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:752)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3115)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2957)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2921)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2755)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:689)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:678)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:224)
+	at com.aptana.commandline.launcher.application.LauncherApplication.start(LauncherApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:348)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-10 15:22:01.787
+!MESSAGE Widget is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Control.redraw(Control.java:2327)
+	at org.eclipse.swt.ole.win32.OleClientSite.OnInPlaceDeactivate(OleClientSite.java:952)
+	at org.eclipse.swt.ole.win32.OleClientSite.access$19(OleClientSite.java:948)
+	at org.eclipse.swt.ole.win32.OleClientSite$5.method11(OleClientSite.java:534)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback11(COMObject.java:164)
+	at org.eclipse.swt.internal.win32.OS.VtblCall(Native Method)
+	at org.eclipse.swt.internal.ole.win32.IOleInPlaceObject.InPlaceDeactivate(IOleInPlaceObject.java:21)
+	at org.eclipse.swt.ole.win32.OleClientSite.deactivateInPlaceClient(OleClientSite.java:559)
+	at org.eclipse.swt.ole.win32.OleClientSite.onDispose(OleClientSite.java:908)
+	at org.eclipse.swt.ole.win32.OleClientSite.access$1(OleClientSite.java:895)
+	at org.eclipse.swt.ole.win32.OleClientSite$1.handleEvent(OleClientSite.java:129)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:790)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:448)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.jface.text.AbstractInformationControl.dispose(AbstractInformationControl.java:513)
+	at org.eclipse.jface.text.AbstractInformationControlManager.disposeInformationControl(AbstractInformationControlManager.java:1308)
+	at org.eclipse.jface.text.AbstractInformationControlManager.dispose(AbstractInformationControlManager.java:1323)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.dispose(AbstractHoverInformationControlManager.java:933)
+	at org.eclipse.jface.text.TextViewerHoverManager.dispose(TextViewerHoverManager.java:389)
+	at org.eclipse.jface.text.TextViewer.handleDispose(TextViewer.java:1946)
+	at org.eclipse.jface.text.source.SourceViewer.handleDispose(SourceViewer.java:773)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.handleDispose(ProjectionViewer.java:1364)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.JavaSourceViewer.handleDispose(JavaSourceViewer.java:453)
+	at org.eclipse.jface.text.TextViewer$2.widgetDisposed(TextViewer.java:1800)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.StyledText.handleDispose(StyledText.java:5815)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5635)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:180)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:702)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1811)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1511)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1469)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(WorkbenchPage.java:1273)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1860)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:934)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1843)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1122)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1119)
+	at org.eclipse.ui.internal.Workbench.access$13(Workbench.java:1050)
+	at org.eclipse.ui.internal.Workbench$28.run(Workbench.java:1351)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1349)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1321)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:752)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3115)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2957)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2921)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2755)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:689)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:678)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:224)
+	at com.aptana.commandline.launcher.application.LauncherApplication.start(LauncherApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:348)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-06-10 15:22:01.827
+!MESSAGE 从插件调用代码时出现问题：“org.eclipse.ui.workbench”。
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.CoolBar.getItems(CoolBar.java:531)
+	at org.eclipse.jface.action.CoolBarManager.findCoolItem(CoolBarManager.java:311)
+	at org.eclipse.jface.action.CoolBarManager.itemRemoved(CoolBarManager.java:488)
+	at org.eclipse.jface.action.ContributionManager.replaceItem(ContributionManager.java:517)
+	at org.eclipse.ui.internal.EditorActionBars.dispose(EditorActionBars.java:178)
+	at org.eclipse.ui.internal.EditorManager.disposeEditorActionBars(EditorManager.java:390)
+	at org.eclipse.ui.internal.EditorReference.doDisposePart(EditorReference.java:335)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:705)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1811)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1511)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1469)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(WorkbenchPage.java:1273)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1860)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:934)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1843)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1122)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1119)
+	at org.eclipse.ui.internal.Workbench.access$13(Workbench.java:1050)
+	at org.eclipse.ui.internal.Workbench$28.run(Workbench.java:1351)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1349)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1321)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:752)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:740)
+	at org.eclipse.ui.internal.WorkbenchWindow$8.run(WorkbenchWindow.java:907)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:905)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2059)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3115)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2957)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2921)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2755)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:689)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:678)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:224)
+	at com.aptana.commandline.launcher.application.LauncherApplication.start(LauncherApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:348)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:22:01.930
+!MESSAGE ********HBuilder正常关闭：postShutdown********
+!SESSION 2019-06-10 15:21:57.443 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication D:\internet\php\wamp\www\news\ckeditor\plugins\image\dialogs\image.js
+
+!ENTRY com.aptana.rcp 4 0 2019-06-10 15:22:02.641
+!MESSAGE 
+!STACK 0
+java.lang.Exception
+	at com.aptana.rcp.SystemUtils.exit(SystemUtils.java:8)
+	at com.aptana.rcp.ReadyFileUtils.saveError(ReadyFileUtils.java:409)
+	at com.aptana.rcp.IDEApplication.checkInstanceLocation(IDEApplication.java:414)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:184)
+	at com.aptana.commandline.launcher.application.LauncherApplication.start(LauncherApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:348)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+
+!ENTRY com.aptana.rcp 1 0 2019-06-10 15:22:05.039
+!MESSAGE close CEF

@@ -1,0 +1,86 @@
+body {
+				margin: 0px;
+				padding: 0px;
+				background-color:whitesmoke;
+			}
+			
+			.top {
+				/* 璁剧疆瀹藉害楂樺害鑳屾櫙棰滆壊 */
+				height: 40px;
+				/*楂樺害鏀逛负鑷姩楂樺害*/
+				float:left;
+				width: 100%;
+				margin-left: 0;
+				background: rgb(64, 142, 214);
+				/*position: fixed;*/
+				/*鍥哄畾鍦ㄩ《閮�*/
+				top: 0;
+				/*绂婚《閮ㄧ殑璺濈涓�0*/
+				
+			}
+			
+			.login {
+				border-radius: 50%;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				line-height: 40px;
+				float: right;
+				background-color: rgb(59, 99, 146);
+				position:relative;
+				right:50px;
+			}
+			
+			.login span {
+				color: white;
+				
+			}
+			
+			#box {
+				width: 30%;
+				height: 340px;
+				float:left;
+				margin: -1px auto;
+				position: relative;
+			}
+			
+			.btn {
+				float: left;
+				width: 50px;
+				height: 100px;
+				color: #fff;
+				background-color: rgba(0, 0, 0, 0.2);
+				font-size: 40px;
+				text-align: center;
+				line-height: 100px;
+				position: absolute;
+				top: 120px;
+				display: none;
+				overflow: hidden;
+			}
+			
+			#left {
+				left: 0px;
+			}
+			
+			#right {
+				right: 0px;
+			}
+			
+			ul {
+				list-style: none;
+				position: absolute;
+				bottom: -1px;
+				left: 200px;
+			}
+			
+			ul li {
+				float: left;
+				width: 20px;
+				height: 20px;
+				margin-left: 10px;
+				background-color: #aaa;
+				text-align: center;
+				line-height: 20px;
+				border-radius: 50%;
+			}
